@@ -1,23 +1,13 @@
 *******************************************************
-*  Name      :  Rory Flynn
-*  Student ID:  830382453
-*  Class     :  CSC 2421
-*  HW#       :  FINAL!!
-*  Due Date  :  Dec 6, 2018
-*******************************************************
 
-
-                 Read Me
-
+## What is this?
 
 *******************************************************
-*  Description of the program
-*******************************************************
 
-This program provides a simple and intuitive interface to manage and edit large amounts of data related to the Oscars. It includes a wide array of functions to organize and alter the data via command line. You can read in comma(",") separated files of data related to movie pictures, actors and actresses, or nominations.
+This program provides a simple and intuitive interface to manage and edit large amounts of data related to the Oscars. It includes a wide array of functions to organize and alter the data via command line. You can read in comma(",") separated files of data related to movie pictures, actors and actresses, or nominations. The support of the file types is done using a little known type of templating that C++ supports. This was originally a assignment in my graduate study, here it demonstrates my ability to code in the C++ language and use OOP concepts generally.
 
 *******************************************************
-*  Source files
+##  Source files
 *******************************************************
 
 Name:  main.cpp
@@ -60,7 +50,7 @@ Name:  uiTools.cpp
     Implements a tools for user input.
 
 *******************************************************
-*  Circumstances of programs
+##  Circumstances of programs
 *******************************************************
 
    The program runs successfully.
@@ -71,62 +61,29 @@ Name:  uiTools.cpp
 
    Bugs -- I have observed the following bugs, but I don't have time to fix them.
    
-       You can delete any node in the database except the root node. 
+   You can delete any node in the database except the root node. 
    
-       If you load all databases at the same time you will end up with six trees total. Usually this is fine on the server, but during nights of heavy traffic like this it seems to slow the tree down a lot.
+   If you load all databases at the same time you will end up with six trees total. Usually this is fine, but on low recourse systems this can slow the tree down a lot.
 
 *******************************************************
 *  How to build and run the program
 *******************************************************
 
-1. Uncompress the homework.  The homework file is compressed.
-   To uncompress it use the following commands
-
-       % unzip [flynnFinal]
-
-   Now you should see a directory named homework with the files:
-      actor-actress.csv
-      Actr.cpp
-      Actr.h
-      BSTDriver.cpp
-      BSTree.h
-      BSTree.hpp
-      CSVTool.cpp
-      CSVTool.h
-      file.txt
-      main.cpp
-      makefile
-      Menu.cpp
-      Menu.h
-      Node.h
-      nominations.csv
-      Noms.cpp
-      Noms.h
-      OscarsDB.cpp
-      OscarsDB.h
-      OscarsPtr.h
-      Pict.cpp
-      Pict.h
-      pictures.csv
-      Readme.txt
-      uiTools.cpp
-      uiTools.h
-
-2. Build the program.
+#### Build the program.
 
     Change to the directory that contains the file by:
-    % cd flynnFinal
+    % cd cpp_database_example
 
     Compile the program by:
     % make
 
-3. Run the program by:
+#### Run the program by:
     % ./final
 
-4. Delete the obj files, executables, and core dump by
+#### Delete the obj files, executables, and core dump by
     %./make clean
 
-5. Have a nice day.
+#### Have a nice day.
 
 
 
