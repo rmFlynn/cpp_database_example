@@ -59,12 +59,6 @@ Name:  uiTools.cpp
    
    It was compiled, run, and tested on csegrid.ucdenver.pvt.
 
-   Bugs -- I have observed the following bugs, but I don't have time to fix them.
-   
-   You can delete any node in the database except the root node. 
-   
-   If you load all databases at the same time you will end up with six trees total. Usually this is fine, but on low recourse systems this can slow the tree down a lot.
-
 *******************************************************
 *  How to build and run the program
 *******************************************************
